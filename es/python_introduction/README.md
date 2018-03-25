@@ -160,16 +160,16 @@ TypeError: object of type 'int' has no len()
 
 ## Variables
 
-Un concepto importante en programación son las variables. Una variable no es más que un nombre para alguno de forma que puedas usarlo más tarde. Los programadores usan estas variables para almacenar datos, hacer su código más legible y para no tener que recordar qué es cada cosa.
+Un concepto importante en programación son las variables. Una variable nombra a un objeto de forma que puedas usarlo más tarde. Los programadores usan estas variables para almacenar datos, hacer su código más legible y para no tener que recordar qué es cada cosa.
 
-Supongamos que queremos crear una nueva variable llamada `name`:
+Supongamos que queremos guardar el objeto 'Ola' en una variable llamada `name`:
 
 {% filename %}Terminal{% endfilename %}
 ```python
 >>> name = "Ola"
 ```
 
-¿Ves? ¡Es fácil! Es simplemente: name equivale a Ola.
+¿Ves? ¡Es fácil! Es simplemente: name equivale a 'Ola'.
 
 Como habrás notado, el programa no devuelve nada como lo hacía antes. ¿Cómo sabemos que la variable existe realmente? Simplemente escribe `name` y pulsa `intro`:
 
@@ -218,7 +218,7 @@ Traceback (most recent call last):
 NameError: name 'ctiy' is not defined
 ```
 
-¡Un error! Como puedes ver, Python tiene diferentes tipos de errores y este se llama **NameError**. Python te dará este error si intentas utilizar una variable que no ha sido definida aún. Si más adelante te encuentras con este error, verifica tu código para ver si no has escrito mal una variable.
+¡Un error! Como puedes ver, Python tiene diferentes tipos de errores y este se llama **NameError**. Python te dará este error si intentas utilizar una variable que no hemos creado. Si más adelante te encuentras con este error, verifica tu código para ver si no has escrito mal una variable.
 
 ¡Juega con esto un rato y descubre qué puedes hacer!
 
